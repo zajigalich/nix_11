@@ -1,0 +1,50 @@
+Manifest-Version: 1.0
+Implementation-Title: Apache Commons Geometry Euclidean
+Bundle-Description: Geometric primitives for euclidean space.
+Automatic-Module-Name: org.apache.commons.geometry.euclidean
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.commons.geometry.euclidean
+Implementation-Version: 1.0
+Specification-Vendor: The Apache Software Foundation
+Bnd-LastModified: 1629164420988
+Bundle-ManifestVersion: 2
+Specification-Title: Apache Commons Geometry Euclidean
+Bundle-DocURL: https://commons.apache.org/proper/commons-geometry/comm
+ ons-geometry-euclidean/
+Bundle-Vendor: The Apache Software Foundation
+Include-Resource: META-INF/NOTICE.txt=NOTICE.txt,META-INF/LICENSE.txt=
+ LICENSE.txt
+Import-Package: org.apache.commons.geometry.core,org.apache.commons.ge
+ ometry.core.internal,org.apache.commons.geometry.core.partitioning,or
+ g.apache.commons.geometry.core.partitioning.bsp,org.apache.commons.ge
+ ometry.euclidean,org.apache.commons.geometry.euclidean.internal,org.a
+ pache.commons.geometry.euclidean.oned,org.apache.commons.geometry.euc
+ lidean.threed,org.apache.commons.geometry.euclidean.threed.line,org.a
+ pache.commons.geometry.euclidean.threed.mesh,org.apache.commons.geome
+ try.euclidean.threed.rotation,org.apache.commons.geometry.euclidean.t
+ hreed.shape,org.apache.commons.geometry.euclidean.twod,org.apache.com
+ mons.geometry.euclidean.twod.path,org.apache.commons.geometry.euclide
+ an.twod.rotation,org.apache.commons.geometry.euclidean.twod.shape,org
+ .apache.commons.numbers.angle,org.apache.commons.numbers.core,org.apa
+ che.commons.numbers.quaternion
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.1.2.202007211702
+Implementation-Vendor: The Apache Software Foundation
+Export-Package: org.apache.commons.geometry.euclidean;version="1.0.0",
+ org.apache.commons.geometry.euclidean.internal;version="1.0.0",org.ap
+ ache.commons.geometry.euclidean.oned;version="1.0.0",org.apache.commo
+ ns.geometry.euclidean.threed;version="1.0.0",org.apache.commons.geome
+ try.euclidean.threed.line;version="1.0.0",org.apache.commons.geometry
+ .euclidean.threed.mesh;version="1.0.0",org.apache.commons.geometry.eu
+ clidean.threed.rotation;version="1.0.0",org.apache.commons.geometry.e
+ uclidean.threed.shape;version="1.0.0",org.apache.commons.geometry.euc
+ lidean.twod;version="1.0.0",org.apache.commons.geometry.euclidean.two
+ d.path;version="1.0.0",org.apache.commons.geometry.euclidean.twod.rot
+ ation;version="1.0.0",org.apache.commons.geometry.euclidean.twod.shap
+ e;version="1.0.0"
+Bundle-Name: Apache Commons Geometry Euclidean
+Bundle-Version: 1.0.0
+Build-Jdk-Spec: 1.8
+Created-By: Apache Maven Bundle Plugin
+Specification-Version: 1.0
+
