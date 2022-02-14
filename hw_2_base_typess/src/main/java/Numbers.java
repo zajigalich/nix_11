@@ -1,7 +1,7 @@
 
 public class Numbers {
     private Numbers() throws IllegalAccessException {
-        throw new IllegalAccessException("error, this class is utility");
+        //sumLettersOfString()
     }
 
     public static int sumLettersOfString(String line) {
