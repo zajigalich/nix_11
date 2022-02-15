@@ -1,3 +1,3 @@
 #!/bin/sh
 
-ant build jar  run
+ant build jar
