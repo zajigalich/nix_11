@@ -1,4 +1,4 @@
-package main.java.ua.com.alevel;
+package ua.com.alevel;
 
 import org.apache.commons.lang3.time.DateUtils;
 
