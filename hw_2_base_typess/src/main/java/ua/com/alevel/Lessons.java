@@ -8,9 +8,8 @@ import java.util.Scanner;
 
 public class Lessons {
 
-    private final int LESSON = 45;
-    private final int BREAKE = 5;
-
+    private static final int LESSON = 45;
+    private static final int BREAKE = 5;
 
     private static int enterNum() {
         int amountOfLessons = 0;
@@ -27,13 +26,14 @@ public class Lessons {
         return amountOfLessons;
     }
 
-    private int timeInMinutes (int amountOfLessons){
-        return amountOfLessons*LESSON +(amountOfLessons-1)*BREAKE + (amountOfLessons-1)/2*BREAKE*3;
+    private int timeInMinutes(int amountOfLessons) {
+        return amountOfLessons * LESSON + (amountOfLessons - 1) * BREAKE + (amountOfLessons - 1) / 2 * BREAKE * 3;
     }
+
     public void output() {
         Date date = new Date(21600000);
         int timeInMinutes = timeInMinutes(enterNum());
-        date = DateUtils.addMinutes(date,timeInMinutes);
+        date = DateUtils.addMinutes(date, timeInMinutes);
         SimpleDateFormat format = new SimpleDateFormat("HH:mm");
         System.out.println("Ending time " + format.format(date));
     }

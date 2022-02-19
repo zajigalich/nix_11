@@ -16,9 +16,8 @@ public class Numbers {
 
     private int SumFinder(char[] numb) {
         int sum = 0;
-        for (int i = 0; i < numb.length ; i++) {
+        for (int i = 0; i < numb.length; i++) {
             sum += Character.getNumericValue(numb[i]);
-
         }
         return sum;
     }
@@ -26,6 +25,6 @@ public class Numbers {
     public void output() {
         int result = SumFinder(stringCharArray(enterString()));
         System.out.println("Sum of numbers in entered string:\n" +
-                + result);
+                +result);
     }
 }
