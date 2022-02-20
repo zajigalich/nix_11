@@ -16,7 +16,7 @@ public class Lessons {
         Scanner scanner = new Scanner(System.in);
         do {
             try {
-                System.out.println("Введите номер урока(1-10): ");
+                System.out.println("Enter number of lesson(1-10): ");
                 String line = scanner.nextLine();
                 amountOfLessons = Integer.parseInt(line);
             } catch (NumberFormatException a) {
@@ -31,7 +31,7 @@ public class Lessons {
     }
 
     public void output() {
-        Date date = new Date(21600000);
+        Date date = new Date(21_600_000);
         int timeInMinutes = timeInMinutes(enterNum());
         date = DateUtils.addMinutes(date, timeInMinutes);
         SimpleDateFormat format = new SimpleDateFormat("HH:mm");
